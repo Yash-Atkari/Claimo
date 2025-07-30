@@ -3,8 +3,14 @@ if(process.env.NODE_ENV !== "production") {
 }
 
 const express = require("express");
+const cors = require("cors");
 const app = express();
 const mongoose = require("mongoose");
+
+app.use(cors({
+  origin: 'https://claimo.netlify.app', 
+  credentials: true
+}));
 
 const User = require("./models/user.js");
 const ClaimHistory  = require("./models/claimHistory.js");
