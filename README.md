@@ -3,7 +3,7 @@
 Claimo is a dynamic leaderboard system built with **Node.js**, **Express**, **MongoDB**, and **ReactJS**. Users can claim random points (1–10) for themselves, and the leaderboard updates in real-time based on total points. The app also stores point claim history for each user.
 
 ### Live Demo
-View Claimo[https://claimo.netlify.app/]
+[View Claimo](https://claimo.netlify.app/)
 
 ## Features
 
